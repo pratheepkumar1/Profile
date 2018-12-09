@@ -1,0 +1,64 @@
+@import 'common';
+.h1 {
+    font-size: $font-size-xx-large;
+    line-height: $line-height-xx-large;
+    color:rgba(255,255,255,0.9);
+    font-family: $font-family_1;
+    font-weight: $font-weight-semi-bold;
+    margin-bottom: $spacing-large;
+}
+.p1 {
+    font-size: $font-size-medium;
+    line-height: $line-height-medium;
+    color: rgba(255,255,255,0.75);
+    font-family: $font-family_2;
+    font-weight: $font-weight-regular;
+    margin-bottom: $spacing-large;       
+}
+
+.p2 {
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    color: black;
+    font-family: $font-family_2;
+    font-weight: $font-weight-regular;
+    margin-bottom: $spacing-large;       
+}
+
+.h2{
+    font-size: $font-size-body;
+    line-height: $line-height-body;	
+    color: #000000;	
+    font-family: $font-family_1;		
+    font-weight: bold;	  
+}
+
+.p3 {
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    color: black;
+    font-family: $font-family_2;
+    font-weight: $font-weight-regular;   
+    margin-bottom: $spacing-large;   
+}
+
+.h3{
+    font-size: $font-size-large;
+    line-height: $line-height-large;	
+    color: #000000;	
+    font-family: $font-family_1;		
+    font-weight: bold;	  
+}
+
+.h4{
+    font-size: $font-size-medium;
+    line-height: $line-height-medium;	
+    color: #000000;	
+    font-family: $font-family_1;		
+    font-weight: bold;	  
+}
+
+.container {
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+}
