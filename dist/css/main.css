@@ -11,9 +11,10 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #261203;
     font-size: 1em;
     line-height: 1.4;
+    font-family: RobotoSlab;
 }
 
 /*
@@ -25,11 +26,6 @@ html {
  *
  * Customize the background color to match your design.
  */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
 ::selection {
     background: #b3d4fc;
@@ -285,3 +281,88 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+.main-content {
+  margin-top: 2%;
+}
+
+.Hello-Im-Pratheep {
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.Hello-Im-Pratheep span {
+  font-weight: 300;
+  display: block;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  background: #000000;
+  display: block;
+}
+
+.I-am-Design-Thinker {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c7076;
+  width: 60%;
+}
+
+
+.label-text {
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.acc-row {
+  margin-bottom: 3%;
+}
+
+
+.user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.collapse-handle collapsed {
+  width: 32px;
+  height: 32px;
+  background: url(../svg/collapse.svg);
+  background-size: 32px 32px;
+  cursor: pointer;
+}
+
+.collapse-handle {
+  width: 32px;
+  height: 32px;
+  background: url(../svg/expand.svg);
+  background-size: 32px 32px;
+  cursor: pointer;
+}
+
